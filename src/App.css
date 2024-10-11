@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  font-family: "Inter";
+  color: white;
+}
+
+body {
+  background-color: #23252C;
+}
+
+.app--container {
+  width: 317px;
+  border-radius: 20px 20px ;
+  background-color: #1A1B21;
+  /* centers the app container */
+  margin: 30px auto;
+}
+
+.info--id-container {
+  text-align: center;
+  border-radius: 20px;
+}
+
+.info--picture {
+  padding-top: 1em;
+  width: 317px;
+  border-radius: 20px 20px 0px 0px;
+  background-color: #161619;
+}
+
+.info--id-name {
+  font-size: 25px; 
+  margin-bottom: 5px;
+}
+
+.info--id-job-title {
+  color: #F3BF99;
+  font-size: 12.8px;
+  margin-top: 0.2em;
+  margin-bottom: 0.5em;
+}
+
+.info--id-website {
+  font-size: 10.24px;
+  text-decoration: none;
+}
+
+.info--buttons-container {
+  display: flex;
+  max-width: 247px;
+  margin: 1.5em 2em;
+  justify-content: space-between;  /* Distributes space between items */
+}
+
+.info--buttons-email {
+min-width: 115px;
+display: inline-block;             /* Makes the link behave like a button */
+background-color: #FFFFFF;         /* LinkedIn blue background */
+color: black;                      /* White text */
+padding: 10px 20px;                /* Padding to make it look like a button */
+border-radius: 7px;                /* Rounded corners */
+text-decoration: none;             /* Removes underline from link */
+font-size: 14px;                   /* Adjusts font size */
+font-family: Arial, sans-serif;    /* Sets font family */
+transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+.info--buttons-email i {
+margin-right: 8px;                 /* Adds space between icon and text */
+color: black;
+}
+
+.info--buttons-email:hover {
+background-color: #E9E9E9;         /* Darker blue on hover */
+}
+
+.info--buttons-linkedin {
+min-width: 115px;
+display: inline-block;             /* Makes the link behave like a button */
+background-color: #0077b5;         /* LinkedIn blue background */
+color: white;                      /* White text */
+padding: 10px 20px;                /* Padding to make it look like a button */
+border-radius: 7px;                /* Rounded corners */
+text-decoration: none;             /* Removes underline from link */
+font-size: 14px;                   /* Adjusts font size */
+font-family: Arial, sans-serif;    /* Sets font family */
+transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+.info--buttons-linkedin i {
+margin-right: 8px;                 /* Adds space between icon and text */
+}
+
+.info--buttons-linkedin:hover {
+background-color: #005983;         /* Darker blue on hover */
+}
+
+.body-text {
+  max-width: 247px;
+  margin: auto;
+}
+
+.body-text > h1{
+  margin-top: 2.5em;
+  font-size: 16px; 
+}
+
+.body-text > p{
+  font-size: 10.24px;
+  color: #DCDCDC;
+}
+
+.interests--container > h1{
+  margin-top: 1.5em;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  height: 64px;
+  border-radius: 0px 0px 20px 20px;
+  background-color: #161619;
+}
+
+.location--icon {
+  padding-right: 10px;
+}
+
+.location-text {
+  font-size: 12.24px;
+}
